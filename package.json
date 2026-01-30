@@ -1,0 +1,27 @@
+{
+  "name": "mein-erstes-projekt",
+  "version": "1.0.0",
+  "description": "- `main` ist immer deploybar und live (GitHub Pages). - Arbeit passiert in Feature-Branches. - Codex darf umsetzen, ich reviewe per `git diff`, dann Merge.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderarn/mein-erstes-projekt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alexanderarn/mein-erstes-projekt/issues"
+  },
+  "homepage": "https://github.com/alexanderarn/mein-erstes-projekt#readme",
+  "dependencies": {
+    "@notionhq/client": "^5.9.0"
+  }
+}
